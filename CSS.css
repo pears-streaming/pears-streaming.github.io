@@ -1,0 +1,76 @@
+.toto {
+  cursor: crosshair;
+    color : #FFFFFF;
+  -webkit-text-stroke: 0.4px black;
+}
+
+
+.truc {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  color : #FFFFFF;
+  -webkit-text-stroke: 0.4px black;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+
+body {
+    background-image:url('https://static.hitek.fr/img/actualite/ill_m/1477506403/peakyblinders.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+	background-color:black;
+        color : #FFFFFF;
+        font-weight: bold;
+}
+table{
+  border-collapse: collapse
+}
+
+.titre {
+  color : #FFFFFF;
+  -webkit-text-stroke: 0.4px black;
+}
+#searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
+  #list{
+    font-size:  1.5em;
+    margin-left: 90px;
+   }
+ 
+.animals{
+   display: list-item;    
+  } 
