@@ -59,38 +59,6 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 <p class="truc">
   Et là on peut zoomer.
 </p>
-<!-- Pop up -->
-<div id="maincontent">
-    <button id="button">Show Popup</button>
-</div>
-<div id="overlay"></div>
-<div id="popup">
-    <div class="popupcontrols">
-        <span id="popupclose">X</span>
-    </div>
-    <div class="popupcontent">
-        <h1>Faite la guerre avec Putin!</h1>
-        <img src= "https://www.euractiv.com/wp-content/uploads/sites/2/2018/03/Capture.jpg"alt="Image" style="width:450px;height:300px;">
-
-    </div>
-</div>
-<script type="text/javascript">
-    // Initialize Variables
-    var closePopup = document.getElementById("popupclose");
-    var overlay = document.getElementById("overlay");
-    var popup = document.getElementById("popup");
-    var button = document.getElementById("button");
-    // Close Popup Event
-    closePopup.onclick = function() {
-      overlay.style.display = 'none';
-      popup.style.display = 'none';
-    };
-    // Show Overlay and Popup
-    button.onclick = function() {
-      overlay.style.display = 'block';
-      popup.style.display = 'block';
-    }
-</script>
 <!-- bar de recherche -->
 <input type="text" id="myInput" onkeyup="myFunction()"
         name="search" placeholder="Search for names..">
