@@ -5,6 +5,7 @@
 <!-- Titre -->
 <title>Site de streaming</title>
 <!-- rel feuille css -->
+<link rel="stylesheet" href="css.css"> 
 <link rel="stylesheet" type="text/css" href="./style.css">
 <!-- Image onglets -->
 <link rel="icon" type="image/png" sizes="16x16" href="https://images-platform.99static.com//jQmoFlrBFrlC5UdF9rVvA0mLS3g=/600x600:1199x1199/fit-in/500x500/99designs-contests-attachments/113/113743/attachment_113743867">
@@ -58,7 +59,97 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 <p class="truc">
   Et là on peut zoomer.
 </p>
+<!-- Pop up -->
+<div id="maincontent">
+    <button id="button">Show Popup</button>
+</div>
+<div id="overlay"></div>
+<div id="popup">
+    <div class="popupcontrols">
+        <span id="popupclose">X</span>
+    </div>
+    <div class="popupcontent">
+        <h1>Faite la guerre avec Putin!</h1>
+        <img src= "https://www.euractiv.com/wp-content/uploads/sites/2/2018/03/Capture.jpg"alt="Image" style="width:450px;height:300px;">
 
+    </div>
+</div>
+<script type="text/javascript">
+    // Initialize Variables
+    var closePopup = document.getElementById("popupclose");
+    var overlay = document.getElementById("overlay");
+    var popup = document.getElementById("popup");
+    var button = document.getElementById("button");
+    // Close Popup Event
+    closePopup.onclick = function() {
+      overlay.style.display = 'none';
+      popup.style.display = 'none';
+    };
+    // Show Overlay and Popup
+    button.onclick = function() {
+      overlay.style.display = 'block';
+      popup.style.display = 'block';
+    }
+</script>
+<!-- bar de recherche -->
+<input type="text" id="myInput" onkeyup="myFunction()"
+        name="search" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="./film/spiderman.html">Spider-Man : No way</a></li>
+  <li><a href="./film/ted.html">Ted 2</a></li>
+
+  <li><a href="./film/king.html">The King’s Man : Première mission</a></li>
+  <li><a href="./film/red.html">Red Notice</a></li>
+
+  <li><a href="./film/sos.html">S.O.S. Fantômes : L’Héritage</a></li>
+  <li><a href="./film/green.html">Green Book</a></li>
+  <li><a href="./film/free.html">Free Guy</a></li>
+  <li><a href="./film/black.html">Black widow</a></li>
+  <li><a href="./film/amen.html">American Nightmare 5</a></li>
+  <li><a href="./film/tomorrow.html">The Tomorrow War</a></li>
+  <li><a href="./film/hitman.html">Hitman & Bodyguard 2</a></li>
+  <li><a href="./film/mortal.html">Mortal Kombat</a></li>
+  <li><a href="./film/kong.html">Godzilla vs. Kong</a></li>
+  <li><a href="./film/tenet.html">Tenet</a></li>
+  <li><a href="./film/wonder.html">Wonder Woman 1984</a></li>
+  <li><a href="./film/blood.html">Bloodshot</a></li>
+  <li><a href="./film/fast.html">Fast & Furious 9</a></li>
+  <li><a href="./film/whip.html">Whiplash</a></li>
+  <li><a href="./film/bad.html">Bad Boys for Life</a></li>
+  <li><a href="./film/jum.html">Jumanji : next level</a></li>
+  <li><a href="./film/ete.html">Les Éternels</a></li>
+  <li><a href="./film/shang.html">Shang-Chi et la Légende des Dix Anneaux</a></li>
+  <li><a href="./film/brig800.html">La Brigade des 800</a></li>
+  <li><a href="./film/matrix.html">Matrix Resurrections</a></li>
+  <li><a href="./film/missy.html">The Wrong Missy</a></li>
+  <li><a href="./film/americpie.html">American Pie : Campus en folie</a></li>
+  <li><a href="./film/shaft.html">Shaft</a></li>
+  <li><a href="./film/deadpool.html">Deadpool 2</a></li>
+  <li><a href="./film/night.html">Night Teeth</a></li>
+  <li><a href="./film/mise.html">Mise à l'épreuve 2</a></li>
+
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 </body>
 </html>
