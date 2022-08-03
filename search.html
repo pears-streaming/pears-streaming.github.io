@@ -1,1 +1,73 @@
+<!DOCTYPE html >
+< html >
+< tête >
+< jeu de caractères méta  =" UTF-8 " >
+<!-- titre onglet -->
+< title > Site de streaming </ title >
+<!-- logo onglet -->
+< lien  rel =" icône " type =" image/png " tailles =" 16x16 " href =" https://images-platform.99static.com//jQmoFlrBFrlC5UdF9rVvA0mLS3g=/600x600:1199x1199/fit-in/500x500/99designs- concours-pièces jointes/113/113743/pièce jointe_113743867 " >
+<!-- feuille css -->
+< lien  rel =" feuille de style " href =" css.css " > 
+</head>
+<body>
+  <!-- bar de recherche -->
+<input type="text" id="myInput" onkeyup="myFunction()"
+        name="search" placeholder="Search for names..">
 
+<ul id="myUL">
+  <li><a href="./film/spiderman.html">Spider-Man : No way</a></li>
+  <li><a href="./film/ted.html">Ted 2</a></li>
+
+  <li><a href="./film/king.html">The King’s Man : Première mission</a></li>
+  <li><a href="./film/red.html">Red Notice</a></li>
+
+  <li><a href="./film/sos.html">S.O.S. Fantômes : L’Héritage</a></li>
+  <li><a href="./film/green.html">Green Book</a></li>
+  <li><a href="./film/free.html">Free Guy</a></li>
+  <li><a href="./film/black.html">Black widow</a></li>
+  <li><a href="./film/amen.html">American Nightmare 5</a></li>
+  <li><a href="./film/tomorrow.html">The Tomorrow War</a></li>
+  <li><a href="./film/hitman.html">Hitman & Bodyguard 2</a></li>
+  <li><a href="./film/mortal.html">Mortal Kombat</a></li>
+  <li><a href="./film/kong.html">Godzilla vs. Kong</a></li>
+  <li><a href="./film/tenet.html">Tenet</a></li>
+  <li><a href="./film/wonder.html">Wonder Woman 1984</a></li>
+  <li><a href="./film/blood.html">Bloodshot</a></li>
+  <li><a href="./film/fast.html">Fast & Furious 9</a></li>
+  <li><a href="./film/whip.html">Whiplash</a></li>
+  <li><a href="./film/bad.html">Bad Boys for Life</a></li>
+  <li><a href="./film/jum.html">Jumanji : next level</a></li>
+  <li><a href="./film/ete.html">Les Éternels</a></li>
+  <li><a href="./film/shang.html">Shang-Chi et la Légende des Dix Anneaux</a></li>
+  <li><a href="./film/brig800.html">La Brigade des 800</a></li>
+  <li><a href="./film/matrix.html">Matrix Resurrections</a></li>
+  <li><a href="./film/missy.html">The Wrong Missy</a></li>
+  <li><a href="./film/americpie.html">American Pie : Campus en folie</a></li>
+  <li><a href="./film/shaft.html">Shaft</a></li>
+  <li><a href="./film/deadpool.html">Deadpool 2</a></li>
+  <li><a href="./film/night.html">Night Teeth</a></li>
+  <li><a href="./film/mise.html">Mise à l'épreuve 2</a></li>
+
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+</body>
+</html>
