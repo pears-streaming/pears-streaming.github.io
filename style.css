@@ -125,3 +125,7 @@ table{
     #button {
         cursor: pointer;
     }
+.loupe {
+	width:20px;
+	height:20px;
+	margin-left: -250px
