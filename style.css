@@ -128,7 +128,7 @@ table{
 .loupe {
 	width:20px;
 	height:20px;
-	float:right;
+	margin-left: 80%;
 hr {
     border: none;
     border-top: 3px double #333;
