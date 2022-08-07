@@ -140,7 +140,7 @@ hr {
 
 hr:after {
     background: #fff;
-    content: 'ALIX';
+    content: "ALIX";
     padding: 0 4px;
     position: relative;
     top: -13px;
