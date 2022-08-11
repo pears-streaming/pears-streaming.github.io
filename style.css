@@ -22,7 +22,10 @@ label {
 }
 
 
-
+body {
+    background: rgb(45,45,45);
+    height: 100vh;
+}
 table { 
     margin-left: auto;
     margin-right: auto;
