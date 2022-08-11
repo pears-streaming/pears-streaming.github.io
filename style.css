@@ -22,12 +22,7 @@ label {
 }
 
 
-body {
-    background-image:url('https://static.hitek.fr/img/actualite/ill_m/1477506403/peakyblinders.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    height: 100vh;
-}
+
 table { 
     margin-left: auto;
     margin-right: auto;
