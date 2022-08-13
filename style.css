@@ -127,4 +127,17 @@ table{
 	width:20px;
 	height:20px;
 	margin-left: 96%;
+.separator{
+  display: flex;
+  align-items: center;
+}
 
+.separator h2{
+  padding: 0 2rem; /* creates the space */
+}
+
+.separator .line{
+  flex: 1;
+  height: 3px;
+  background-color: #000;
+}
