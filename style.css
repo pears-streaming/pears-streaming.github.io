@@ -46,6 +46,7 @@ table{
   color : #FFFFFF;
   -webkit-text-stroke: 0.4px black;
 }
+/* bar de recherche */
 #myInput {
      margin-left: 15%;
      padding:15px;
@@ -127,6 +128,7 @@ table{
 	width:20px;
 	height:20px;
 	margin-left: 96%;
+/* ligne */
 .separator{
   display: flex;
   align-items: center;
