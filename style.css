@@ -144,7 +144,7 @@ table{
   }
   
   .sub-links a:hover {
-    color: var(--dark);
+    color: #E3E3E3;
     text-decoration: underline;
   }
   
@@ -160,7 +160,7 @@ table{
   footer {
     padding: 20px;
     text-align: center;
-    color: var(--dark);
+    color: #E3E3E3;
     margin: 10px;
   }
   p {
