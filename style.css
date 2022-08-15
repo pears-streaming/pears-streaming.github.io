@@ -39,8 +39,8 @@ table{
 }
 
 .titre {
-  color : #FFFFFF;
-  -webkit-text-stroke: 0.4px black;
+  color: #E3E3E3;
+  font-size: 15px;
 }
 /* bar de recherche */
 #myInput {
