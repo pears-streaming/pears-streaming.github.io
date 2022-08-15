@@ -1,15 +1,5 @@
-.toto {
-  cursor: crosshair;
-    color : #FFFFFF;
-  -webkit-text-stroke: 0.4px black;
-}
-
-
-.truc {
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
-  color : #FFFFFF;
-  -webkit-text-stroke: 0.4px black;
+.categorie {
+  color: white;
 }
 label {
     display: block;
