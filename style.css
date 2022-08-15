@@ -150,17 +150,15 @@ table{
     color: var(--dark);
     text-decoration: underline;
   }
-.sub-links ul {
-      display: grid;
-      grid-gap: 20px;
-      grid-template-columns: repeat(1, 1fr);
-      text-align: center;
-      font-size: 15px;
-    }
+  
+  @media screen and (max-width:1175px)
+  {
+  .banner--fadeBottom {
+    margin-top: 160px;
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
   }
   
-  @media screen and (min-width:423px)
-  {
       /* FOOTER */
   footer {
     padding: 20px;
