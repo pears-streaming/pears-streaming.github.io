@@ -95,7 +95,7 @@ table{
 	margin-left: 96%;
 }
 .d-page {
-	text-decoration: underline;
+	display: inline
 }
 .menu {
                 margin: 10px;
