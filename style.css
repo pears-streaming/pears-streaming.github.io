@@ -1,9 +1,8 @@
 .categorie {
-  color: white;
+  color: #E3E3E3;
   font-weight: bold;
-  font-size: 50px;
-  text-align: center;
-  margin-left: 50%;
+  font-size: 30px;
+  margin-left: 40%;
 }
 label {
     display: block;
