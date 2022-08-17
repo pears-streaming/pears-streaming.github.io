@@ -183,3 +183,8 @@ table{
       font-size: 15px;
     }
   }
+.box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
