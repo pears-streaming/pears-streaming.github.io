@@ -206,3 +206,21 @@ table{
   -webkit-transform: scale(1.4);  
   transform: scale(1.4);
 }
+.box img {
+  border-radius: 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  padding-top: 60px;  
+}
+
+h2 {
+  color : white;
+  font-size: 110%;
+  white-space: nowrap;
+}
+
