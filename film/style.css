@@ -201,7 +201,8 @@ table{
 }
 
 .box a {
-  transition: transform .3s;  
+  transition: transform .3s;
+  text-align: center;
 }
 
 .box a:hover {
