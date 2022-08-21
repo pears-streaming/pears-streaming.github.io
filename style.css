@@ -65,7 +65,7 @@ table{
 #myUL {
   /* Remove default list styling */
   list-style-type: none;
-  padding: 4;
+  padding: 5;
   margin: 0;
 }
 
