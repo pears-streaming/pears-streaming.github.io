@@ -163,6 +163,7 @@ table{
 .box a {
   transition: transform .3s;
   text-align: center;
+color : white;
 }
 
 .box a:hover {
