@@ -95,3 +95,35 @@ h2 {
   margin: 0;
   box-sizing: border-box;
 }
+/* FOOTER */
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #E3E3E3;
+    margin: 10px;
+  }
+  p {
+      display: block;
+      text-align: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  }
+  
+    .sub-links ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      text-align:center
+      margin:auto
+    }
+  
+      .sub-links ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+      font-size: 15px;
+    }
