@@ -141,11 +141,7 @@ table{
 color : white;
 }
 
-.box a:hover {
-  transition: transform .3s;
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.4);  
-  transform: scale(1.4);
+
 }
 .box img {
   border-radius: 2px;
