@@ -167,3 +167,7 @@ h2 {
   margin: 0;
   box-sizing: border-box;
 }
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
