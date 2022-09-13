@@ -15,23 +15,6 @@ body {
       line-height: 1.4;
       background-color: #2c2c2c;
   }
-
-table { 
-    margin-left: auto;
-    margin-right: auto;
-}
-td {
-        padding: 10px;
-        border: 1px solid black;
-        border-collapse: collapse;
-	background-color:black;
-        color : #FFFFFF;
-        font-weight: bold;
-}
-table{
-  border-collapse: collapse
-}
-
 .titre {
   color: #E3E3E3;
   font-size: 20px;
@@ -49,59 +32,6 @@ table{
 .menu {
                 margin: 10px;
     }
-/* fin */
-
-/* MAIN CONTIANER */
-.main-container {
-  padding: 30px;
-}
-
-.box {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
-}
-
-.box a {
-  transition: transform .3s;
-  text-align: center;
-color : white;
-}
-
-.box a:hover {
-  transition: transform .3s;
-  -ms-transform: scale(1.4);
-  -webkit-transform: scale(1.4);  
-  transform: scale(1.4);
-}
-.box img {
-  border-radius: 2px;
-}
-
-img {
-  max-width: 100%;
-}
-
-h1 {
-  padding-top: 60px;  
-}
-
-h2 {
-  color : white;
-  font-size: 110%;
-  white-space: nowrap;
-}
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-/* FOOTER */
-  footer {
-    padding: 20px;
-    text-align: center;
-    color: #E3E3E3;
-    margin: 10px;
-  }
   p {
       display: block;
       text-align: center;
