@@ -34,6 +34,12 @@ margin-left: 12%;
 .menu {
                 margin: 10px;
     }
+  footer {
+    padding: 20px;
+    text-align: center;
+    color: #E3E3E3;
+    margin: 10px;
+  }
   p {
       display: block;
       text-align: center;
