@@ -85,34 +85,35 @@ table{
   
 
 
-/* Film */
+/* MAIN CONTIANER */
 .main-container {
-  padding: 3px;
+  padding: 30px;
 }
 
-.pre {
+.box {
   display: grid;
-  grid-gap: 2px;
-  grid-template-columns: repeat(6, minmax(10px, 1fr));
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
 }
 
-.pre a {
+.box a {
   transition: transform .3s;
   text-align: center;
 color : white;
 }
 
-
-
-
+.box a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.4);
 }
-.pre img {
+.box img {
   border-radius: 2px;
 }
 
 img {
-width:185px;
-height:280px;
+  max-width: 100%;
 }
 
 h1 {
@@ -128,7 +129,3 @@ h2 {
   margin: 0;
   box-sizing: border-box;
 }
-a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
