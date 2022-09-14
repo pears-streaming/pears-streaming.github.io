@@ -131,8 +131,8 @@ table{
 
 .pre {
   display: grid;
-  grid-gap: 2px;
-  grid-template-columns: repeat(6, minmax(10px, 1fr));
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
 }
 
 .pre a {
@@ -146,7 +146,7 @@ color : white;
 
 }
 .pre img {
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
 img {
