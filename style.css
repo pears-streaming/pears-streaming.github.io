@@ -170,7 +170,7 @@ a {
     text-align: center;
 	}
 
-@media handheld{
+@media handheld and (max-width: 860px){
   
   .pre {
       display: grid;
@@ -179,7 +179,7 @@ a {
   }
   
 }
-@media screen,tv,projection{
+@media screen,tv,projection and (max-width: 560px){
   
   .pre {
       display: grid;
