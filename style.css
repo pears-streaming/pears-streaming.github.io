@@ -175,7 +175,7 @@ a {
     text-align: center;
 	}
 
-@media all and (max-width: 560px) {
+@media handheld{
   
   .pre {
       display: grid;
