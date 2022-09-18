@@ -129,7 +129,11 @@ table{
   padding: 3px;
 }
 
-
+  .pre {
+      display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  }
 
 
 
@@ -170,15 +174,6 @@ a {
     text-decoration: none;
     text-align: center;
 	}
-@media all and (max-width: 860px) {
-  
-  .pre {
-      display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
-  }
-  
-}
 
 @media all and (max-width: 560px) {
   
