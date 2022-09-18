@@ -129,11 +129,14 @@ table{
   padding: 3px;
 }
 
-.pre {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(6, minmax(100px, 1fr));
-}
+
+
+
+
+
+
+
+
 
 .pre a {
   transition: transform .3s;
