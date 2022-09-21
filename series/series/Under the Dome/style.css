@@ -36,10 +36,12 @@ table{
   color: #E3E3E3;
   font-size: 20px;
   font-weight: bold;
+margin-left: 14%;
 }
 .desc {
 	color: #E3E3E3;
 	font-size: 15px;
+	margin-left: 14%;
 }
 .loupe {
 	width:20px;
