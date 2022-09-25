@@ -45,7 +45,7 @@ table{
 }
 /* bar de recherche */
 #myInput {
-     margin-left: 50%;
+     margin-left: 30%;
      padding:15px;
      border-radius: 10px;
    }
@@ -57,11 +57,7 @@ table{
 	   
    }
  
-   /* When the input field gets focus,
-        change its width to 100% */
-   input[type=text]:focus {
-     width: 70%;
-   }
+
 
 #myUL {
   /* Remove default list styling */
