@@ -43,6 +43,10 @@ margin-left: 14%;
 	font-size: 15px;
 	margin-left: 14%;
 }
+.titre2 {
+  color: #E3E3E3;
+  font-size: 20px;
+  font-weight: bold;
 }
 .loupe {
 	width:20px;
@@ -157,25 +161,25 @@ margin-left: 14%;
   padding: 30px;
 }
 
-.box {
+.pre {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
 }
 
-.box a {
+.pre a {
   transition: transform .3s;
   text-align: center;
 color : white;
 }
 
-.box a:hover {
+.pre a:hover {
   transition: transform .3s;
   -ms-transform: scale(1.4);
   -webkit-transform: scale(1.4);  
   transform: scale(1.4);
 }
-.box img {
+.pre img {
   border-radius: 2px;
 }
 
